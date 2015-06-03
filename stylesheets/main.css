@@ -1,0 +1,37 @@
+@media (max-width: 5000px) {
+  @font-face {
+    font-family: 'black';
+    src: url('/fonts/ClanOT-Bold.otf');
+  }
+  @font-face {
+    font-family: 'book';
+    src: url('/fonts/ClanOT-Book.otf');
+  }
+  @font-face {
+    font-family: 'medium';
+    src: url('/fonts/ClanOT-Medium.otf');
+  }
+  @font-face {
+    font-family: 'thin';
+    src: url('/fonts/ClanOT-Thin.otf');
+  }
+  @font-face {
+    font-family: 'news';
+    src: url('/fonts/ClanOT-News.otf');
+  }
+  @font-face {
+    font-familly: 'logo';
+    src: url('/fonts/new.ttf');
+  }
+  body {
+    font-family: 'book'; 
+    font-size: 10pt;
+    color: #313131;
+  }
+
+  .main {
+    font-family: 'book'; 
+    font-size: 10pt;
+    color: #313131;
+  }
+}

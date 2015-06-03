@@ -1,0 +1,44 @@
+@media (max-width: 5000px) {
+    @font-face {
+        font-family: 'thin';
+        src: url('/fonts/ClanOT-Thin.otf');
+    }
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        width: 104%;
+        height: 42px;
+        line-height: 30px;
+        background-color: #eeeeee; /* #595959;*/
+        margin-left: -2%;
+        padding-left: 16px;
+        opacity: .95;
+        position: fixed;
+        z-index: 4;
+        padding-top: -20px;
+        border-color: #dfdfdf;
+        border-width: 1px;
+        border-style: solid;
+        font-family: 'thin';
+        font-size: 14pt;
+        color: #595959;
+        text-align: center;
+        padding-top: -10px;
+    }
+    .header-title {
+        margin-top: -14px;
+    }
+    /*
+    .content {
+        margin-top: 40px;
+    }
+    .header-spacing {
+        position:absolute;
+        top: 0px;
+        height: 100px;
+        widht: 100%;
+        background: transparent;
+        border: 0px solid #000;
+    }
+    */
+}
