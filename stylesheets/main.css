@@ -27,11 +27,57 @@
     font-family: 'book'; 
     font-size: 10pt;
     color: #313131;
+    background-image: url('images/gridd.jpg');
   }
 
   .main {
     font-family: 'book'; 
     font-size: 10pt;
     color: #313131;
+    text-align: left;  
+    margin-right: 10%;
+    width: 90%;
+  }
+
+  .section-header {
+    font-family: 'thin';
+    font-size: 20pt;
+    color: #11125;
+    padding-left: 20px;
+    padding-bottom: 20px; 
+    padding-top: 40px; 
+  }
+
+  .main-info {
+    padding-left: 20px; 
+  }
+
+  .example-header { 
+    color: #6d6d6d;
+    font-family: 'medium'; 
+    font-size: 8pt; 
+  }
+
+  .example {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 30px;
+    padding-right: 30px; 
+    text-align: left; 
+    font-family: 'news'; 
+    font-size: 8pt;
+    background-color: #f7f7f7; 
+    color: #323232;
+    border-left: 4px solid #e4e4e4; 
+    margin-left: 4%;
+    margin-right: 4%; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+
+  .image {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
   }
 }
